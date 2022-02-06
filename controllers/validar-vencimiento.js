@@ -5,7 +5,6 @@ const respuestas = require("../helpers/respuestas");
 const usPost = async (req, res = response) => {
 
     let {dominio, vehiculo_year, vehiculo_kms} = req.body;
-    let body = req.body;
     const busquedas = new Busquedas();
 
     try {
